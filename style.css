@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,700&family=Libre+Franklin:ital,wght@0,100;0,300;0,600;0,800;1,800&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@300;400;500;700;900&family=Rubik:wght@400;500;700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; position: relative; top: 200px; font-size: 16px; font-weight: 600;}
+.attribution a { color: hsl(300, 69%, 71%);  text-decoration: none}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,700&family=Libre+Franklin:ital,wght@0,100;0,300;0,600;0,800;1,800&family=Poppins:wght@200;400;600&family=Red+Hat+Display:wght@300;400;500;700;900&family=Rubik:wght@400;500;700&display=swap');
+
+*{
+  font-family: "Poppins";
+}
+
+body{
+  background-image: url(./images/bg-desktop.svg);
+  background-color: hsl(257, 40%, 49%);
+}
+h1{
+  color: white;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 45px;
+}
+p{
+  color: white;
+  font-size: 16px;
+  font-weight: 200;
+}
+button{
+  border: none;
+  width: 25vh;
+  height: 7vh;
+  border-radius: 50px;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  transition: 0.3s;
+  position: relative;
+   top: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+button:hover{
+  cursor: pointer;
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  padding: 2px;
+
+}
+
